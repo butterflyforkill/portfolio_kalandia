@@ -1,12 +1,12 @@
 :root {
   --background: #ffffff;
-  --foreground: #f6efef;
+  --foreground: #0b0b0b;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background: #faf2f2;
-    --foreground: #ededed;
+    --foreground: #090808;
   }
 }
 
@@ -46,10 +46,8 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  margin: 20px;
   background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   color: black;
 }
 
@@ -67,4 +65,29 @@ a {
 .navbar-center {
   font-weight: bold;
   font-size: 20px;
+}
+
+/*description*/
+.description {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  font-family: 'Helvetica Neue';
+}
+
+.description .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description .desc-text {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
 }
