@@ -1,12 +1,16 @@
 import Navbar from "@/components/Navbar";
+import Description from "@/components/Description";
+import { project1MAName, project1MA } from "@/lib/texts";
 
 export default function Projects() {
     return (
         
       <div>
         <Navbar/>
-        <h1>Projects</h1>
-        <p>This is the Projects page.</p>
+        <div className="about-desc">
+        <Description nameText={project1MAName} descText={project1MA} />
+
+        </div>
       </div>
     );
   }

@@ -67,8 +67,8 @@ a {
   font-size: 20px;
 }
 
-/*description*/
-.description {
+/*about-desc*/
+.about-desc{
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -78,7 +78,13 @@ a {
   font-family: 'Helvetica Neue';
 }
 
-.description .title {
+/*description*/
+.description {
+  padding: 5px;
+  font-family: 'Helvetica Neue';
+}
+
+.description .name-text {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -90,4 +96,55 @@ a {
   line-height: 1.5;
   text-align: justify;
   margin-bottom: 20px;
+}
+
+/*description-container*/
+.description-container {
+  text-align: left;
+  padding: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  padding-left: 0; 
+  margin-left: 0;
+}
+
+.section-list {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 0; 
+  margin-left: 0;
+}
+
+.list-item {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  
+}
+
+
+/*image-slider*/
+
+.image-slider {
+  display: flex;  /* Display images side by side */
+  justify-content: flex-start;  /* Align them in the starting position */
+  width: 100%; /* You can control the width of the container */
+  height: 300px;  /* Set the height of the container */
+  overflow-x: auto;  /* Make the slider scrollable horizontally if needed */
+}
+
+.slider-image {
+  width: 100%; /* Adjust this as needed, depending on the image size */
+  height: 100%;  /* This can be adjusted to match your needs */
+  object-fit: cover;  /* Ensures the image maintains aspect ratio and covers the area */
 }
