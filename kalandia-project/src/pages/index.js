@@ -18,9 +18,26 @@ export default function Home() {
 
       <Navbar />
       <div className="about-desc">
-        <ImageSlider/>
+        <ImageSlider
+          images={[
+            {
+              url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.03.jpeg?updatedAt=1753693378899",
+              alt: "First image",
+            },
+            {
+              url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.02.jpeg?updatedAt=1753693378891",
+              alt: "Second image",
+            },
+            {
+              url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.52.56.jpeg?updatedAt=1753693378844",
+              alt: "Third image",
+            },
+          ]}
+          containerClass="my-slider"
+          imageClass="my-image"
+        />
 
-      <Description nameText={indexText} descText={descriptionText} />
+        <Description nameText={indexText} descText={descriptionText} />
       </div>
     </>
   );

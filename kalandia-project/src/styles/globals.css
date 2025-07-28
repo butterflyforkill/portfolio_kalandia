@@ -85,7 +85,7 @@ a {
 }
 
 .description .name-text {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -110,7 +110,7 @@ a {
 }
 
 .section-title {
-  font-size: 1.0rem;
+  font-size: 16px;
   font-weight: bold;
   color: #333;
   margin-bottom: 5px;
@@ -126,7 +126,7 @@ a {
 }
 
 .list-item {
-  font-size: 1rem;
+  font-size: 16px;
   color: #555;
   line-height: 1.5;
   

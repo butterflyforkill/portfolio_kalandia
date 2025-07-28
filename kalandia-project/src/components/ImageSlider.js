@@ -1,16 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const ImageSlider = () => {
-  const images = [
-    "/image1.jpg",
-    "/image2.jpg",
-    "/image3.jpg"
-  ];
-
+const ImageSlider = ({ images, containerClass, imageClass }) => {
   return (
-    <div className="image-slider">
+    <div className={`image-slider ${containerClass || ""}`}>
       {images.map((image, index) => (
-        <img key={index} src={image} alt={`photo-${index}`} className="slider-image" />
+        <img
+          key={index}
+          src={image.url}
+          alt={image.alt || `photo-${index}`}
+          className={`slider-image ${imageClass || ""}`}
+        />
       ))}
     </div>
   );
