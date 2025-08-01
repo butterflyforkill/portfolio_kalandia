@@ -1,150 +1,158 @@
 :root {
-  --background: #ffffff;
-  --foreground: #0b0b0b;
+    --background: #ffffff;
+    --foreground: #0b0b0b;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --background: #faf2f2;
-    --foreground: #090808;
-  }
+    :root {
+        --background: #faf2f2;
+        --foreground: #090808;
+    }
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: 'Helvetica Neue', sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
+    html {
+        color-scheme: light;
+    }
 }
 
 /* navbar */
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  margin: 20px;
-  background-color: #fff;
-  color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #fff;
+    color: black;
 }
 
-.navbar-left, .navbar-right {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar-left,
+.navbar-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar-left li, .navbar-right li {
-  margin-right: 20px;
+.navbar-left li,
+.navbar-right li {
+    margin-right: 20px;
 }
 
 .navbar-center {
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /*about-desc*/
-.about-desc{
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px;
-  font-family: 'Helvetica Neue';
+.about-desc {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    font-family: "Helvetica Neue";
 }
 
 /*description*/
 .description {
-  padding: 5px;
-  font-family: 'Helvetica Neue';
+    padding: 5px;
+    font-family: "Helvetica Neue";
 }
 
 .description .name-text {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .description .desc-text {
-  max-width: 600px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-  margin-bottom: 20px;
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 /*description-container*/
 .description-container {
-  text-align: left;
-  padding: auto;
-  font-family: 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: auto;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 .section {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .section-title {
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-  padding-left: 0; 
-  margin-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .section-list {
-  list-style-type: disc;
-  list-style-position: outside;
-  padding-left: 0; 
-  margin-left: 0;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .list-item {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.5;
-  
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
 }
-
 
 /*image-slider*/
 
 .image-slider {
-  display: flex;  /* Display images side by side */
-  justify-content: flex-start;  /* Align them in the starting position */
-  width: 100%; /* You can control the width of the container */
-  height: 300px;  /* Set the height of the container */
-  overflow-x: auto;  /* Make the slider scrollable horizontally if needed */
+    display: flex; /* Display images side by side */
+    justify-content: flex-start; /* Align them in the starting position */
+    width: 100%; /* You can control the width of the container */
+    height: 300px; /* Set the height of the container */
+    overflow-x: auto; /* Make the slider scrollable horizontally if needed */
+}
+
+.image-slider2 {
+    display: flex; /* Display images side by side */
+    justify-content: flex-start; /* Align them in the starting position */
+    width: 100%; /* You can control the width of the container */
+    height: 600px; /* Set the height of the container */
+    overflow-x: auto; /* Make the slider scrollable horizontally if needed */
 }
 
 .slider-image {
-  width: 100%; /* Adjust this as needed, depending on the image size */
-  height: 100%;  /* This can be adjusted to match your needs */
-  object-fit: cover;  /* Ensures the image maintains aspect ratio and covers the area */
+    width: 100%; /* Adjust this as needed, depending on the image size */
+    height: 100%; /* This can be adjusted to match your needs */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and covers the area */
 }
