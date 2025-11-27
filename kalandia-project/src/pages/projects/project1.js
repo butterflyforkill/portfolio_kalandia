@@ -93,7 +93,7 @@ const sixthImages = [
   },
 ];
 
-export default function Projects() {
+export default function Project1() {
   return (
     <div>
       <Navbar />
