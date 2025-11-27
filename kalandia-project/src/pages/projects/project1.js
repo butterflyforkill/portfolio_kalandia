@@ -80,15 +80,30 @@ const fifthImages = [
 
 const sixthImages = [
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.50.jpeg?updatedAt=1754059257107",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.33.jpeg",
     alt: "First image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.56.jpeg?updatedAt=1754059258341",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.36.jpeg",
     alt: "Second image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.54.jpeg?updatedAt=1754059257249",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.39.jpeg",
+    alt: "Third image",
+  },
+];
+
+const seventhImages = [
+  {
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.21.jpeg",
+    alt: "First image",
+  },
+  {
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.27.jpeg",
+    alt: "Second image",
+  },
+  {
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-11-27%2018.10.30.jpeg",
     alt: "Third image",
   },
 ];
@@ -131,6 +146,12 @@ export default function Project1() {
 
         <ImageSlider
           images={sixthImages}
+          containerClass="image-slider2"
+          imageClass="slider-image"
+        />
+
+        <ImageSlider
+          images={seventhImages}
           containerClass="image-slider2"
           imageClass="slider-image"
         />
