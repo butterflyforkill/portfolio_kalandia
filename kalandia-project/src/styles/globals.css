@@ -141,13 +141,14 @@ a {
     width: 100%; /* You can control the width of the container */
     height: 300px; /* Set the height of the container */
     overflow-x: auto; /* Make the slider scrollable horizontally if needed */
+    gap: 20px; /* Adds consistent space between images */
 }
 
 .image-slider2 {
     display: flex; /* Display images side by side */
     justify-content: flex-start; /* Align them in the starting position */
     width: 100%; /* You can control the width of the container */
-    height: 600px; /* Set the height of the container */
+    height: 700px; /* Set the height of the container */
     overflow-x: auto; /* Make the slider scrollable horizontally if needed */
 }
 

@@ -1,0 +1,72 @@
+/* Remove everything else and use only this */
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem; /* big soft corners */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    aspect-ratio: 4 / 5; /* tall elegant cards */
+}
+
+.card:hover {
+    transform: translateY(-16px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.card:hover .image {
+    transform: scale(1.12);
+}
+
+/* Overlay with title sliding up from bottom */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 2rem 2rem;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.4) 70%,
+        transparent 100%
+    );
+    transform: translateY(60%);
+    opacity: 0;
+    transition: all 0.6s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card:hover .overlay {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+    letter-spacing: -0.5px;
+}
+
+/* Responsive grid — 3 cards on large screens, smaller on mobile */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+}

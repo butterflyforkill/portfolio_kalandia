@@ -9,15 +9,15 @@ import ImageSlider from "@/components/ImageSlider";
 
 const images = [
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.03.jpeg?updatedAt=1753693378899",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.14.jpeg?updatedAt=1754059252671",
     alt: "First image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.02.jpeg?updatedAt=1753693378891",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.13.jpeg?updatedAt=1754059251864",
     alt: "Second image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.52.56.jpeg?updatedAt=1753693378844",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/photo_2025-08-01%2016.39.16.jpeg?updatedAt=1754059254388",
     alt: "Third image",
   },
 ];
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="about-desc">
         <ImageSlider
           images={images}
-          containerClass="index-slider"
+          containerClass="image-slider2"
           imageClass="slider-image"
         />
 
