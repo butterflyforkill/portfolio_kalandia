@@ -25,7 +25,6 @@ const projects = [
     url: "",
     alt: "Project 3",
   },
-  // Add more as needed
 ];
 
 export default function Projects() {
@@ -45,7 +44,7 @@ export default function Projects() {
                 height={1000}
                 className={styles.image}
                 placeholder="blur"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWj7O8QAAAABJRU5ErkJggg=="
+                blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWj7O8QAAAABJRU5ErkJggg=="
                 priority={project.id <= 3} // faster load for first 3
               />
               <div className={styles.overlay}>
