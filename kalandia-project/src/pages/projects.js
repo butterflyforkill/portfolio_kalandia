@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "Project RE:BIRTH ZP 91",
     slug: "project2",
     url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/project_2/photo_2026-01-15%2012.46.05.jpeg",
     alt: "Project RE:BIRTH ZP 91",
