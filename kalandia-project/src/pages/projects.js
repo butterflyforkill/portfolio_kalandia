@@ -6,16 +6,16 @@ import styles from "./projects.module.css";
 const projects = [
   {
     id: 1,
-    title: "Project 1.M.A.",
+    title: "Project Dogma: perfect human",
     slug: "project1",
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.08.jpeg?updatedAt=1753693381574",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/coming_soon/photo_2026-01-15%2016.46.38.jpeg",
     alt: "Project 1.M.A.",
   },
   {
     id: 2,
     title: "Project RE:BIRTH ZP 91",
     slug: "project2",
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/project_2/photo_2026-01-15%2012.46.05.jpeg",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/coming_soon/photo_2026-01-15%2016.53.00.jpeg",
     alt: "Project RE:BIRTH ZP 91",
   },
   {

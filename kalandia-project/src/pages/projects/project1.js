@@ -5,15 +5,15 @@ import { project1MAName, project1MA } from "@/lib/texts";
 
 const firstImages = [
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.08.jpeg?updatedAt=1753693381574",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/coming_soon/photo_2026-01-15%2017.11.50.jpeg",
     alt: "First image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.53.07.jpeg?updatedAt=1753693381547",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/coming_soon/photo_2026-01-15%2017.40.50.jpeg",
     alt: "Second image",
   },
   {
-    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/Lola_site_photos/photo_2025-07-28%2010.52.58.jpeg?updatedAt=1753693378811",
+    url: "https://ik.imagekit.io/p0zp0rqkm/photos_kalandia/coming_soon/photo_2026-01-15%2017.43.25.jpeg",
     alt: "Third image",
   },
 ];

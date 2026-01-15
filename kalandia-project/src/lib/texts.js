@@ -43,7 +43,7 @@ The collection erases the boundary between utility and high fashion, transformin
 
 `;
 
-export const project1MAName = `Project 1.M.A.`;
+export const project1MAName = `Project Dogma: perfect human`;
 
 export const projectZP91 = `
 <p><b>"RE:BIRTH ZP 91"</b>— this collection merges technology, recycling, and the concept of the body, drawing on the visual and social codes of Ukraine in the 1990s.</p>
