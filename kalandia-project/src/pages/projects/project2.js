@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Description from "@/components/Description";
 import ImageSlider from "@/components/ImageSlider";
-import { project1MAName, project1MA } from "@/lib/texts";
+import { projectZP91Name, projectZP91 } from "@/lib/texts";
 
 const firstImages = [
   {
@@ -73,7 +73,7 @@ export default function Project1() {
           containerClass="image-slider3"
           imageClass="slider-image2"
         />
-        <Description nameText={project1MAName} descText={project1MA} />
+        <Description nameText={projectZP91Name} descText={projectZP91} />
 
         <ImageSlider
           images={secondImages}
