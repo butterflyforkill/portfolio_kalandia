@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "imagekitio-next": "^1.0.1",
-    "next": "^15.4.4",
+    "next": "15.4.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
